@@ -13,9 +13,11 @@
 <body style="background-color: #dfd7d6">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color: #77473d;">
             <div class="container-fluid">
+                <!-- HOME -->
                 <a class="navbar-brand p-3" href="../index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -24,6 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
+                            <!-- ALBUMS LIST -->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Albums
                             </a>
@@ -70,6 +73,7 @@
                                     <a class="dropdown-item" href="#">Let It Be</a>
                                 </li>
                             </ul>
+                            <!-- MEMBERS LIST -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Members
@@ -98,13 +102,20 @@
             </div>
         </nav>
     </header>
+    <!-- MAIN -->
     <main>
-        <div>
-            <img src="../assets/album1/cover.jpeg" alt="Please Please Me album cover" class="rounded w-25 m-3">
+        <!-- ALBUM PHOTO AND TITLE -->
+        <div class="d-flex justify-content-center my-3 albumPresentation">
+            <img src="../assets/album1/cover.jpeg" alt="Please Please Me album cover" class="rounded w-25 my-5 me-5">
+            <b>
+                <p class="display-3 my-5 ms-5">Please Please Me</p>
+            </b>
         </div>
     </main>
+    <!-- FOOTER -->
     <footer class="bg-dark text-center text-white mt-5">
         <div class="container p-3 pb-0">
+            <!-- SOCIAL MEDIA -->
             <section class="mb-4">
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://www.facebook.com/thebeatles/" role="button"
                     target="_blank">
@@ -119,6 +130,7 @@
                 </a>
             </section>
         </div>
+        <!-- COPYRIGHT -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2023 Copyright: Apple Corps
         </div>
