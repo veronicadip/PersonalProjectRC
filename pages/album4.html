@@ -7,19 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Beatles Project</title>
+    <link rel="stylesheet" href="../styles/albums.css">
+    <title>Beatles for Sale</title>
 </head>
 
-<body>
+<body style="background-color: #f5e2bd">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <!-- HEADER -->
-    <header data-bs-theme="dark">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header data-bs-theme="light">
+        <nav class="navbar navbar-expand-lg" style="background-color: #e09e62;">
             <div class="container-fluid">
                 <!-- HOME -->
-                <a class="navbar-brand p-3" href="./index.html">Home</a>
+                <a class="navbar-brand p-3" href="../index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,18 +33,18 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="pages/album1.html">Please Please Me</a>
+                                    <a class="dropdown-item" href="album1.html">Please Please Me</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="pages/album2.html">With The Beatles</a>
+                                    <a class="dropdown-item" href="album2.html">With The Beatles</a>
                                 </li>
                                 <li>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="pages/album3.html">A Hard Day's Night</a>
+                                    <a class="dropdown-item" href="album3.html">A Hard Day's Night</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="pages/album4.html">Beatles For Sale</a>
+                                    <a class="dropdown-item" href="album4.html">Beatles For Sale</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#">Help!</a>
@@ -105,45 +105,86 @@
     </header>
     <!-- MAIN -->
     <main>
-        <!-- TITLE AND INFO -->
-        <p class="h1 text-center m-5">Welcome</p>
-        <p class="m-5">The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George
-            Harrison and Ringo Starr. They are regarded as the most influential band of all time[1] and were integral to
-            the development of 1960s counterculture and popular music's recognition as an art form.[2] Rooted in skiffle,
-            beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative
-            ways; the band also explored music styles ranging from folk and Indian music to psychedelia and hard rock. As
-            pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the
-            music industry and were often publicised as leaders of the era's youth and sociocultural movements. Led by primary
-            songwriters Lennon and McCartney, the Beatles evolved from Lennon's previous group, the Quarrymen, and built
-            their reputation playing clubs in Liverpool and Hamburg over three years from 1960, initially with Stuart Sutcliffe
-            playing bass. The core trio of Lennon, McCartney and Harrison, together since 1958, went through a succession
-            of drummers, including Pete Best, before asking Starr to join them in 1962. Manager Brian Epstein moulded them
-            into a professional act, and producer George Martin guided and developed their recordings, greatly expanding
-            their domestic success after signing to EMI Records and achieving their first hit, "Love Me Do", in late 1962.
-            As their popularity grew into the intense fan frenzy dubbed "Beatlemania", the band acquired the nickname "the
-            Fab Four", with Epstein, Martin or another member of the band's entourage sometimes informally referred to as
-            a "fifth Beatle".</p>
-        <!-- PHOTOS -->
-        <div class="d-flex justify-content-evenly pb-5">
-            <img src="./assets/home/beatles2.webp" alt="beatles" class="rounded w-25 m-3">
-            <img src="./assets/home/beatles1.webp" alt="beatles" class="rounded w-25 m-3">
+        <!-- ALBUM PHOTO AND TITLE -->
+        <div class="container d-flex justify-content-evenly flex-wrap my-5">
+            <img src="../assets/album4/cover.jpeg" alt="Beatles for Sale album cover" class="rounded mt-5 albumCover">
+            <b>
+                <p class="display-5 mt-5">Beatles for Sale</p>
+            </b>
         </div>
+        <!-- ALBUM INFO -->
+        <div class="mx-3 pt-3">
+            <p class="mx-5 mt-5 albumInfo">Beatles for Sale is the fourth studio album by the English rock band the Beatles. It was released on 4 December
+                1964 in the United Kingdom on EMI's Parlophone label. The album marked a departure from the upbeat tone that
+                had characterised the Beatles' previous work, partly due to the band's exhaustion after a series of tours
+                that had established them as a worldwide phenomenon in 1964. Beatles for Sale was not widely available in
+                the US until 1987, when the Beatles' catalogue was standardised for release on CD. Instead, eight of the
+                album's fourteen tracks appeared on Capitol Records' concurrent release, Beatles '65, issued in North America
+                only.
+            </p>
+            <br>
+            <p class="mx-5 albumInfo">The sessions for Beatles for Sale also produced a non-album single, "I Feel Fine" backed by "She's a Woman".
+                During the sessions, the band ventured into studio experimentation, such as employing a fade-in and incorporating
+                guitar feedback, and supplemented the basic recordings with percussion instruments such as timpani, African
+                hand drums and chocalho. The album reflects the twin influences of country music and Bob Dylan, whom the
+                Beatles met in New York in August 1964. Partly as a result of the group's hectic schedule, only eight of
+                the tracks are original compositions, with cover versions of songs by artists such as Carl Perkins, Chuck
+                Berry, Buddy Holly and Little Richard being used to complete the album. The original songs introduced darker
+                musical moods and more introspective lyrics, with John Lennon adopting an autobiographical perspective in
+                "I'm a Loser" and "No Reply".
+            </p>
+            <br>
+            <p class="mx-5 albumInfo">Beatles for Sale received favourable reviews in the UK musical press, where it held the number one spot for 11
+                of the 46 weeks that it spent in the top 20. The album was similarly successful in Australia, where the band's
+                cover of Berry's "Rock and Roll Music" also topped the singles chart. One of the songs omitted from the US
+                version of the album, "Eight Days a Week", became the Beatles' seventh number one in the US when issued as
+                a single there in February 1965. In 2000, it was voted number 204 in the third edition of Colin Larkin's
+                book All Time Top 1000 Albums.
+            </p>
+        </div>
+        <!-- TRACKLIST -->
+        <div class="d-flex justify-content-between flex-wrap mt-5">
+            <div class="mx-3">
+                <p class="h4 mx-5">Tracklist</p>
+                <ol class="mx-5">
+                    <br>
+                    <li> No Reply</li>
+                    <li> I'm a Loser</li>
+                    <li> Baby's in Black</li>
+                    <li> Rock and Roll Music</li>
+                    <li> I'll Follow the Sun</li>
+                    <li> Mr. Moonlight</li>
+                    <li> Kansas City / Hey-Hey-Hey-Hey!</li>
+                    <li> Eight Days a Week</li>
+                    <li> Words of Love</li>
+                    <li> Honey Don't</li>
+                    <li> Every Little Thing</li>
+                    <li> I Don't Want to Spoil the Party</li>
+                    <li> What You're Doing</li>
+                    <li> Everybody's Trying to Be My Baby</li>
+                </ol>
+            </div>
+            <div class="pe-5">
+                <img src="../assets/album4/beatles1.webp" alt="Beatles photo" class="rounded mt-5 me-5 ms-5 w-75">
+            </div>
+        </div>
+        <br>
     </main>
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-white mt-5">
-        <!-- SOCIAL MEDIA -->
         <div class="container p-3 pb-0">
+            <!-- SOCIAL MEDIA -->
             <section class="mb-4">
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://www.facebook.com/thebeatles/" role="button"
                     target="_blank">
-                    <img src="./assets/footer/facebook-logo.png" alt="facebook link">
+                    <img src="../assets/footer/facebook-logo.png" alt="facebook link">
                 </a>
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://twitter.com/thebeatles" role="button" target="_blank">
-                    <img src="./assets/footer/twitter-logo.png" alt="twitter logo">
+                    <img src="../assets/footer/twitter-logo.png" alt="twitter logo">
                 </a>
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://www.instagram.com/thebeatles/" role="button"
                     target="_blank">
-                    <img src="./assets/footer/instagram-logo.png" alt="instagram logo">
+                    <img src="../assets/footer/instagram-logo.png" alt="instagram logo">
                 </a>
             </section>
         </div>
