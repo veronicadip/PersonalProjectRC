@@ -7,19 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Beatles Project</title>
+    <link rel="stylesheet" href="../styles/albums.css">
+    <title>A Hard Day's Night</title>
 </head>
 
-<body>
+<body style="background-color: #d9dbdd">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <!-- HEADER -->
     <header data-bs-theme="dark">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg" style="background-color: #0c4683;">
             <div class="container-fluid">
                 <!-- HOME -->
-                <a class="navbar-brand p-3" href="./index.html">Home</a>
+                <a class="navbar-brand p-3" href="../index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,15 +33,15 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="pages/album1.html">Please Please Me</a>
+                                    <a class="dropdown-item" href="album1.html">Please Please Me</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="pages/album2.html">With The Beatles</a>
+                                    <a class="dropdown-item" href="album2.html">With The Beatles</a>
                                 </li>
                                 <li>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="pages/album3.html">A Hard Day's Night</a>
+                                    <a class="dropdown-item" href="album3.html">A Hard Day's Night</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#">Beatles For Sale</a>
@@ -105,45 +105,71 @@
     </header>
     <!-- MAIN -->
     <main>
-        <!-- TITLE AND INFO -->
-        <p class="h1 text-center m-5">Welcome</p>
-        <p class="m-5">The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George
-            Harrison and Ringo Starr. They are regarded as the most influential band of all time[1] and were integral to
-            the development of 1960s counterculture and popular music's recognition as an art form.[2] Rooted in skiffle,
-            beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative
-            ways; the band also explored music styles ranging from folk and Indian music to psychedelia and hard rock. As
-            pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the
-            music industry and were often publicised as leaders of the era's youth and sociocultural movements. Led by primary
-            songwriters Lennon and McCartney, the Beatles evolved from Lennon's previous group, the Quarrymen, and built
-            their reputation playing clubs in Liverpool and Hamburg over three years from 1960, initially with Stuart Sutcliffe
-            playing bass. The core trio of Lennon, McCartney and Harrison, together since 1958, went through a succession
-            of drummers, including Pete Best, before asking Starr to join them in 1962. Manager Brian Epstein moulded them
-            into a professional act, and producer George Martin guided and developed their recordings, greatly expanding
-            their domestic success after signing to EMI Records and achieving their first hit, "Love Me Do", in late 1962.
-            As their popularity grew into the intense fan frenzy dubbed "Beatlemania", the band acquired the nickname "the
-            Fab Four", with Epstein, Martin or another member of the band's entourage sometimes informally referred to as
-            a "fifth Beatle".</p>
-        <!-- PHOTOS -->
-        <div class="d-flex justify-content-evenly pb-5">
-            <img src="./assets/home/beatles2.webp" alt="beatles" class="rounded w-25 m-3">
-            <img src="./assets/home/beatles1.webp" alt="beatles" class="rounded w-25 m-3">
+        <!-- ALBUM PHOTO AND TITLE -->
+        <div class="container d-flex justify-content-evenly flex-wrap my-5">
+            <img src="../assets/album3/cover.jpeg" alt="A Hard Day's Night album cover" class="rounded mt-5 albumCover">
+            <b>
+                <p class="display-5 mt-5">A Hard Day's Night</p>
+            </b>
         </div>
+        <!-- ALBUM INFO -->
+        <div class="mx-3 pt-3">
+            <p class="mx-5 mt-5 albumInfo">A Hard Day's Night is the third studio album by the English rock band the Beatles, released on 10 July 1964 by
+                Parlophone, with side one containing songs from the soundtrack to their film of the same name. The American
+                version of the album was released two weeks earlier, on 26 June 1964 by United Artists Records, with a different
+                track listing that included selections from George Martin's film score. In contrast to the Beatles' first
+                two albums, all 13 tracks on A Hard Day's Night were written by John Lennon and Paul McCartney, showcasing
+                the development of their songwriting partnership.
+            </p>
+            <br>
+            <p class="mx-5 albumInfo">The album includes the song "A Hard Day's Night", with its distinctive opening chord,[4] and "Can't Buy Me Love",
+                both transatlantic number-one singles for the band. Several of the songs feature George Harrison playing
+                a Rickenbacker 12-string electric guitar, a sound that was influential on the Byrds and other groups in the
+                folk rock/jangle pop movement.
+            </p>
+        </div>
+        <!-- TRACKLIST -->
+        <div class="d-flex justify-content-between flex-wrap mt-5">
+            <div class="mx-3">
+                <p class="h4 mx-5">Tracklist</p>
+                <ol class="mx-5">
+                    <br>
+                    <li> A Hard Day's Night</li>
+                    <li> I Should Have Known Better</li>
+                    <li> If I Fell</li>
+                    <li> I'm Happy Just to Dance with You</li>
+                    <li> And I Love Her</li>
+                    <li> Tell Me Why</li>
+                    <li> Can't Buy Me Love</li>
+                    <li> Any Time at All</li>
+                    <li> I'll Cry Instead</li>
+                    <li> Things We Said Today</li>
+                    <li> When I Get Home</li>
+                    <li> You Can't Do That</li>
+                    <li> I'll Be Back</li>
+                </ol>
+            </div>
+            <div class="pe-5">
+                <img src="../assets/album3/beatles1.jpeg" alt="Beatles photo" class="rounded mt-5 me-5 ms-5 w-75">
+            </div>
+        </div>
+        <br>
     </main>
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-white mt-5">
-        <!-- SOCIAL MEDIA -->
         <div class="container p-3 pb-0">
+            <!-- SOCIAL MEDIA -->
             <section class="mb-4">
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://www.facebook.com/thebeatles/" role="button"
                     target="_blank">
-                    <img src="./assets/footer/facebook-logo.png" alt="facebook link">
+                    <img src="../assets/footer/facebook-logo.png" alt="facebook link">
                 </a>
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://twitter.com/thebeatles" role="button" target="_blank">
-                    <img src="./assets/footer/twitter-logo.png" alt="twitter logo">
+                    <img src="../assets/footer/twitter-logo.png" alt="twitter logo">
                 </a>
                 <a class="btn btn-outline-secondary btn-floating m-2 rounded-4 p-2" href="https://www.instagram.com/thebeatles/" role="button"
                     target="_blank">
-                    <img src="./assets/footer/instagram-logo.png" alt="instagram logo">
+                    <img src="../assets/footer/instagram-logo.png" alt="instagram logo">
                 </a>
             </section>
         </div>
