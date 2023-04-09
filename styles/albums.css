@@ -1,7 +1,24 @@
+/* ALBUM COVER */
 .albumCover {
     max-width: 22rem !important;
 }
 
+/* INFO */
 .albumInfo {
     font-size: 17px;
+}
+
+/* TRACKLIST */
+.trackListImg {
+    width: 530px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1006px) {
+    .tracklistAndImg {
+        justify-content: center !important;
+    }
+    .trackListImg {
+        width: 85%;
+    }
 }
