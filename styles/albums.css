@@ -15,7 +15,7 @@
 }
 
 /* MEDIA QUERY */
-@media (max-width: 1040px) {
+@media (max-width: 1056px) {
     .tracklistAndImg {
         justify-content: center !important;
     }
