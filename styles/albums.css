@@ -11,11 +11,11 @@
 /* TRACKLIST */
 
 .trackListImg {
-    width: 530px;
+    width: 600px;
 }
 
 /* MEDIA QUERY */
-@media (max-width: 1056px) {
+@media (max-width: 1132px) {
     .tracklistAndImg {
         justify-content: center !important;
     }
@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 1007px) {
+@media (min-width: 1132px) {
     .trackListImg {
         margin-right: 8% !important;
     }
