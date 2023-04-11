@@ -1,0 +1,12 @@
+p, .tracklistText {
+    color: #000000;
+}
+
+@media (max-width: 1274px) {
+    .tracklistText {
+        background-color: #5f918c
+        ;
+        border-radius: 10px;
+        color: #000000;
+    }
+}
