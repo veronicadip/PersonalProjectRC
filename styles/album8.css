@@ -1,0 +1,7 @@
+@media (max-width: 1274px) {
+    .tracklistText {
+        background-image: radial-gradient(circle, #6e6486, #8b6682, #9f6c78, #a9766d, #a98466, #a7845e, #a48455, #a0854d, #a7733b, #ae5f32, #b34632, #b6253b);
+        border-radius: 10px;
+        color: #ffffff;
+    }
+}
