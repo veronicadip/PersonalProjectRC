@@ -9,16 +9,23 @@
 }
 
 /* TRACKLIST */
+
 .trackListImg {
-    width: 530px;
+    width: 600px;
 }
 
 /* MEDIA QUERY */
-@media (max-width: 1006px) {
+@media (max-width: 1200px) {
     .tracklistAndImg {
         justify-content: center !important;
     }
     .trackListImg {
         width: 85%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .trackListImg {
+        margin-right: 8% !important;
     }
 }
