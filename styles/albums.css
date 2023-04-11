@@ -15,7 +15,7 @@
 }
 
 /* MEDIA QUERY */
-@media (max-width: 1132px) {
+@media (max-width: 1156px) {
     .tracklistAndImg {
         justify-content: center !important;
     }
@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 1132px) {
+@media (min-width: 1156px) {
     .trackListImg {
         margin-right: 8% !important;
     }
