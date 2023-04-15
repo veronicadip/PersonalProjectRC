@@ -5,4 +5,18 @@
 .beatleHeader {
     width: 95%;
     height: 600px;
+    padding-bottom: 50px;
+    border-bottom-color: #f0f0f0;
+    border-bottom-style: inset;
+    border-width: 4px;
+}
+
+.infoContainer {
+    border-bottom-color: #f0f0f0;
+    border-bottom-style: inset;
+    border-width: 4px;
+}
+
+.sidePhoto {
+    float: right;
 }
