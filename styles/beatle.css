@@ -1,0 +1,8 @@
+.beatleHeader img {
+    object-fit: cover;
+}
+
+.beatleHeader {
+    width: 95%;
+    height: 600px;
+}
